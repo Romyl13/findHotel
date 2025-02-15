@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="#"><span class="header__logo_blue">Your</span><span class="header__logo_red">.logo</span></a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#">Last Minute Deals</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="header__settings">
+                <img src="./icons/dollar.svg" alt="Currency">
+                <img src="./icons/language.svg" alt="Language">
+                <img src="./icons/user.svg" alt="User Profile">
+            </div>
+        </div>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+        <section class="promo">
+            <div class="container">
+                <div class="promo__wrapper">
+                    <div class="promo__content">
+                        <h1 class="promo__title-h1">
+                            Find an apartment <br> for your vacation
+                        </h1>
+                        <p class="promo__text">
+                            We have several thousand apartments <br> for every taste in every corner of the globe
+                        </p>
+                    </div>
+                    <div class="promo__form">
+                        <form action="#" class="promo__search">
+                            <div class="promo__search-item">
+                                <div class="promo__search-icon">
+                                    <img src="./icons/location.svg" alt="Location">
+                                </div>
+                                <div class="promo__location">
+                                    <label for="destination">Where</label>
+                                    <input type="text" id="destination" placeholder="Search Destination">
+                                </div>
+                            </div>
+                        
+                            <div class="promo__search-divider"></div>
+                        
+                            <div class="promo__search-item">
+                                <div class="promo__search-icon">
+                                    <img src="./icons/calendar.svg" alt="Date">
+                                </div>
+                                <div class="promo__date">
+                                    <label for="date">When</label>
+                                    <input type="text" id="date" placeholder="Select Date" readonly>
+                                </div>
+                            </div>
+                        
+                            <button type="submit" class="promo__search-btn">
+                                <img src="./icons/loupe.svg" alt="Search">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>

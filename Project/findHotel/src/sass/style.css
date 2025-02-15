@@ -1,0 +1,35 @@
+@import './reset/reset.css';
+
+
+:root {
+  --primary-color: #EE685F;
+  --secondary-color: #2A90D9;
+  --text-color: #262729;
+  --bg-color: #FFFFFF;
+  --bg-color-alt: #F7F7F7;
+  --border-color: #D6D6D6;
+  --element-color: #EBEBEB;
+}
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+@import './blocks/header.css';
+@import './blocks/promo.css';
+
