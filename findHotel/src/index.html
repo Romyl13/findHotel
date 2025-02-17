@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preload" href="./img/promoImg.webp" as="image">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="#"><span class="header__logo_blue">Your</span><span class="header__logo_red">.logo</span></a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#">Last Minute Deals</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="header__settings">
+                <img src="./icons/money.svg" width="32" height="32" alt="Currency" tabindex="0" aria-label="Currency">
+                <img src="./icons/language.svg" width="32" height="32" alt="Language">
+                <img src="./icons/user.svg" width="32" height="32" alt="User Profile">
+            </div>
+        </div>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+        <!-- section-PROMO -->
+        <section class="promo">
+            <div class="container">
+                <div class="promo__wrapper">
+                    <div class="promo__content">
+                        <h1 class="promo__title-h1">
+                            Find an apartment <br> for your vacation
+                        </h1>
+                        <p class="promo__text">
+                            We have several thousand apartments <br> for every taste in every corner of the globe
+                        </p>
+                    </div>
+                    <div class="promo__form">
+                        <form action="#" class="promo__search">
+                            <div class="promo__search-item">
+                                <div class="promo__search-icon">
+                                    <img src="./icons/location.svg" width="22" height="22" alt="Location">
+                                </div>
+                                <div class="promo__location">
+                                    <label for="destination">Where</label>
+                                    <input type="text" id="destination" placeholder="Search Destination">
+                                </div>
+                            </div>
+                        
+                            <div class="promo__search-divider"></div>
+                        
+                            <div class="promo__search-item">
+                                <div class="promo__search-icon">
+                                    <img src="./icons/calendar.svg" width="22" height="22" alt="Date">
+                                </div>
+                                <div class="promo__date">
+                                    <label for="date">When</label>
+                                    <input type="text" id="date" placeholder="Select Date" readonly>
+                                </div>
+                            </div>
+                        
+                            <button type="submit" class="promo__search-btn">
+                                <img src="./icons/loupe.svg" width="14" height="14" alt="Search">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Advantages -->
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages__wrapper">
+                    <div class="advantages__choose">
+                        <h2 class="advantages__title-h2">
+                            Why Choose Us
+                        </h2>
+                        <p class="advantages__text">
+                            The main reason is because our competitors have disgusting sites, but we can' t write that here, so the text here will
+                            be different
+                        </p>
+                    </div>
+
+                    <div class="advantages__reasons">
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/payment.svg" alt="payment" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                Payment methods
+                            </h3>
+                            <p class="advantages__text_small">
+                                We have a lot of them, from cryptocurrencies to barter for potatoes
+                            </p>
+                        </div>
+
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/search.svg" alt="search" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                Simple search process
+                            </h3>
+                            <p class="advantages__text_small">
+                                We checked it out, even the kid did it, but it was my mom's friend's son
+                            </p>
+                        </div>
+
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/support.svg" alt="support" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                24/7 Support
+                            </h3>
+                            <p class="advantages__text_small">
+                                Is there something you don't understand? Feel free to call us. Phone number in the footer
+                            </p>
+                        </div>
+
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/cat.svg" alt="cat" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                We are nice
+                            </h3>
+                            <p class="advantages__text_small">
+                                Fantasy is over, there will be something really convincing here
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special offers -->
+        <section class="offers">
+            <div class="container">
+                <h2 class="offers__title-h2">
+                    Special offers
+                </h2>
+                <div class="offers__wrapper">
+                    <div class="offer__wrapper-item">
+                        <div class="offers__wrapper-img">
+                            <div class="offers__rating">
+                                <div class="offers__stars">
+                                    <img src="./icons/Star.svg" alt="star">
+                                    <p>4.8</p>
+                                </div>
+                                <div class="offers__heart">
+                                    <img src="./icons/heart.svg" alt="heart">
+                                </div>
+                            </div>
+                            <img src="./img/roomWithImg.png" alt="roomWithImg" class="offers__img" loading="lazy">
+                        </div>
+                        <h3 class="offers__room">Wilderness Club at Big Ceddar</h3>
+                        <div class="offers__descr">2 Bedroom Combined Lodge</div>
+                        <p class="offers__text">28 October — 1 November</p>
+                        <div class="offers__cost-night">
+                            <div class="offers__cost">$2016</div>
+                            <div class="offers__night">/6 night</div>
+                        </div>
+                        <div class="offers__wrapper-detail">
+                            <div class="offers__detail-item">
+                                <img src="./icons/bed.svg" alt="beds">
+                                <p>4 Beds</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/person.svg" alt="peaple sleep">
+                                <p>8 Sleeps</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/area.svg" alt="area">
+                                <p>1,350 Sq Ft</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offer__wrapper-item">
+                        <div class="offers__wrapper-img">
+                            <div class="offers__rating">
+                                <div class="offers__stars">
+                                    <img src="./icons/Star.svg" alt="star">
+                                    <p>4.8</p>
+                                </div>
+                                <div class="offers__heart">
+                                    <img src="./icons/heart.svg" alt="heart">
+                                </div>
+                            </div>
+                            <img src="./img/roomWithImg.png" alt="roomWithImg" class="offers__img" loading="lazy">
+                        </div>
+                        <h3 class="offers__room">Wilderness Club at Big Ceddar</h3>
+                        <div class="offers__descr">2 Bedroom Combined Lodge</div>
+                        <p class="offers__text">28 October — 1 November</p>
+                        <div class="offers__cost-night">
+                            <div class="offers__cost">$2016</div>
+                            <div class="offers__night">/6 night</div>
+                        </div>
+                        <div class="offers__wrapper-detail">
+                            <div class="offers__detail-item">
+                                <img src="./icons/bed.svg" alt="beds">
+                                <p>4 Beds</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/person.svg" alt="peaple sleep">
+                                <p>8 Sleeps</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/area.svg" alt="area">
+                                <p>1,350 Sq Ft</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offer__wrapper-item">
+                        <div class="offers__wrapper-img">
+                            <div class="offers__rating">
+                                <div class="offers__stars">
+                                    <img src="./icons/Star.svg" alt="star">
+                                    <p>4.8</p>
+                                </div>
+                                <div class="offers__heart">
+                                    <img src="./icons/heart.svg" alt="heart">
+                                </div>
+                            </div>
+                            <img src="./img/roomWithImg.png" alt="roomWithImg" class="offers__img" loading="lazy">
+                        </div>
+                        <h3 class="offers__room">Wilderness Club at Big Ceddar</h3>
+                        <div class="offers__descr">2 Bedroom Combined Lodge</div>
+                        <p class="offers__text">28 October — 1 November</p>
+                        <div class="offers__cost-night">
+                            <div class="offers__cost">$2016</div>
+                            <div class="offers__night">/6 night</div>
+                        </div>
+                        <div class="offers__wrapper-detail">
+                            <div class="offers__detail-item">
+                                <img src="./icons/bed.svg" alt="beds">
+                                <p>4 Beds</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/person.svg" alt="peaple sleep">
+                                <p>8 Sleeps</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/area.svg" alt="area">
+                                <p>1,350 Sq Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
