@@ -74,3 +74,27 @@
 .header__logo_red {
     color: var(--Burnt-color);
 }
+
+.header__mobile-nav {
+    display: none;
+}
+
+.header__desktop-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.header__burger-menu span {
+    height: 2px;
+    width: 32px;
+    background-color: var(--Shark-text-color);
+    margin: 4px 0;
+    transition: 0.3s;
+}

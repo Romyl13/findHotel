@@ -14,6 +14,7 @@
   --Curious-color: #2a90d933;
   --Athens-color: #e7e6eb;
   --Gray-color: #858585;
+  --Boston-color: #3D97B4;
 }
 
 
@@ -39,3 +40,5 @@ a {
 @import './blocks/promo.css';
 @import './blocks/advantages.css';
 @import './blocks/offers.css';
+
+@import './adaptive/media.css';

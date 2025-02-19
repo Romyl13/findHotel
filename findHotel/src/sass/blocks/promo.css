@@ -36,7 +36,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 570px;
     height: 70px;
     background-color: var(--White-bg-color);
     border: 1px solid var(--Alto-border-color);

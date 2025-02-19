@@ -19,19 +19,59 @@
                     <a href="#"><span class="header__logo_blue">Your</span><span class="header__logo_red">.logo</span></a>
                 </div>
                 <nav class="header__nav">
-                    <ul class="header__menu">
-                        <li><a href="#">Last Minute Deals</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contacts</a></li>
-                    </ul>
+                    <div class="header__desktop-nav">
+                        <ul class="header__menu">
+                            <li><a href="#">Last Minute Deals</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header__mobile-nav">
+                        <div class="header__burger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="header__nav-links">
+                            <ul class="header__links">
+                                <li><a href="#">Last Minute Deals</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                            <div class="header_nav-settings">
+                                <img src="./icons/money.svg" width="32" height="32" alt="Currency" tabindex="0" aria-label="Currency">
+                                <img src="./icons/language.svg" width="32" height="32" alt="Language">
+                            </div>
+                            <div class="header__contacts">
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/phone.svg" alt="phone">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/facebook.svg" alt="facebook">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/youtube.svg" alt="youtube">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/instagram.svg" alt="instagram">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/telegram.svg" alt="telegram">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </nav>
             </div>
     
             <div class="header__settings">
                 <img src="./icons/money.svg" width="32" height="32" alt="Currency" tabindex="0" aria-label="Currency">
                 <img src="./icons/language.svg" width="32" height="32" alt="Language">
-                <img src="./icons/user.svg" width="32" height="32" alt="User Profile">
+                <img src="./icons/user.svg" width="32" height="32" alt="User Profile" class="user-icon">
             </div>
         </div>
     </header>
@@ -52,7 +92,7 @@
                     </div>
                     <div class="promo__form">
                         <form action="#" class="promo__search">
-                            <div class="promo__search-item">
+                            <div class="promo__search-item one">
                                 <div class="promo__search-icon">
                                     <img src="./icons/location.svg" width="22" height="22" alt="Location">
                                 </div>
@@ -64,7 +104,7 @@
                         
                             <div class="promo__search-divider"></div>
                         
-                            <div class="promo__search-item">
+                            <div class="promo__search-item two">
                                 <div class="promo__search-icon">
                                     <img src="./icons/calendar.svg" width="22" height="22" alt="Date">
                                 </div>

@@ -46,12 +46,32 @@
 .advantages__img {
     padding: 25px;
     color: var(--Black-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.advantages__item-reason:nth-child(odd) .advantages__img:hover {
+    transform: rotate(13deg);
+}
+
+.advantages__item-reason:nth-child(even) .advantages__img:hover {
+    transform: rotate(-13deg);
 }
 
 .advantages__img-circle {
     background-color: var(--Curious-color);
     border-radius: 100%;
     margin-bottom: 20px;
+    transition: all 0.4s ease;
+}
+
+.advantages__item-reason:nth-child(even) .advantages__img-circle:hover {
+    transform: scale(1.03);
+    background-color: #7effffd2;
+}
+
+.advantages__item-reason:nth-child(odd) .advantages__img-circle:hover {
+    transform: scale(1.03);
+    background-color: #7dfce7de;
 }
 
 .advantages__title-h3 {
