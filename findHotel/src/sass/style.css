@@ -40,5 +40,7 @@ a {
 @import './blocks/promo.css';
 @import './blocks/advantages.css';
 @import './blocks/offers.css';
+@import './blocks/reviews.css';
+@import './blocks/blog.css';
 
 @import './adaptive/media.css';
