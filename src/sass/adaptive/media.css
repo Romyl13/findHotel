@@ -1,0 +1,320 @@
+@media (max-width: 1023px) {
+    .header__logo {
+        font-size: 27px;
+    }
+
+    .header__menu {
+        font-size: 13px;
+    }
+
+    .header__settings img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .promo__title-h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .promo__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .advantages__title-h2 {
+        font-size: 32px;
+    }
+
+    .advantages__text {
+        font-size: 18px;
+    }
+
+    .advantages__title-h3 {
+        font-size: 16px;
+    }
+
+    .advantages__reasons {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 60px;
+        column-gap: 50px;
+    }
+
+    .advantages__text_small {
+        font-size: 14px;
+    }
+
+    .offers__title-h2 {
+        font-size: 32px;
+    }
+
+    .offers__wrapper {
+        /* flex-direction: column;
+        row-gap: 30px; */
+        /* - ще такий спосіб(по одному) */
+
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .reviews__wrapper::before {
+        display: none;
+    }
+
+    .reviews__wrapper::after {
+        display: none;
+    }
+
+    .reviews__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-items: center;
+        row-gap: 60px;
+    }
+
+    
+    .blog__item {
+        max-width: 370px;
+    }
+}
+
+/* 767 */
+@media (max-width: 767px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__settings img:not(.user-icon) {
+        display: none;
+    }
+
+    .header__burger-menu {
+        display: flex;
+    }
+
+    .header__nav-links {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        background-color: var(--White-bg-color);
+        z-index: 1;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 48px 20px 32px 20px;
+        row-gap: 40px;
+
+        transform: translateY(-100%);
+        transition: all 0.4s ease;
+    }
+
+    .header_nav-settings {
+        display: flex;
+        column-gap: 32px;
+    }
+
+    .header__links {
+        display: grid;
+        row-gap: 32px;
+        padding-left: 7px;
+    }
+
+    .header__links a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .header__nav-links.active {
+        display: flex;
+
+        transform: translateY(0);
+    }
+
+    .header__burger-menu.active span:nth-child(1) {
+        transform: translateY(9.7px)rotate(45deg);
+    }
+
+    .header__burger-menu.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header__burger-menu.active span:nth-child(3) {
+        transform: translateY(-9.9px) rotate(-45deg);
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 16px;
+    }
+
+    .header__logo {
+        order: 1;
+    }
+
+    .header__mobile-nav {
+        display: block;
+        order: 0;
+    }
+
+    .header__contacts {
+        display: flex;
+        margin-top: 230px;
+        column-gap: 16px;
+        align-items: center;
+    }
+
+    .header__item-contact {
+        background-color: var(--Boston-color);
+        border-radius: 100%;
+    }
+
+    .header__item-contact img {
+        padding: 8px;
+    }
+
+    .promo {
+        background: url('../../img/promoImg.webp') no-repeat center center/cover;
+    }
+
+    .promo__title-h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+    }
+
+    .promo__text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .promo__content {
+        padding: 32px 10px 136px 10px;
+    }
+
+    .promo__search-item.two {
+        display: none;
+    }
+
+    .promo__search-divider {
+        display: none;
+    }
+
+    .advantages {
+        margin: 0;
+    }
+
+    .promo__search {
+        position: static;
+    }
+
+    .advantages__wrapper {
+        padding: 64px 16px;
+    }
+
+    .advantages__title-h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .advantages__reasons {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .offers {
+        margin-top: 80px;
+    }
+
+    .offers__wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .offers__descr {
+        display: none;
+    }
+
+    .offers__wrapper-detail {
+        display: none;
+    }
+
+    .offers__cost-night {
+        margin-bottom: 8px;
+    }
+
+    .offers__text {
+        padding-top: 4px;
+    }
+
+    .header__settings img {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+    .reviews__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        padding: 36px;
+        overflow-x: hidden;
+    }
+    
+    .reviews__item:nth-child(2) {
+        position: absolute;
+        transform: translateX(97%);
+    }
+    
+    .reviews__item:nth-child(3) {
+        display: none;
+    }
+    
+    .reviews__button {
+        width: 90%;
+    }
+    
+    .blog__wrapper {
+        row-gap: 40px;
+    }
+
+    .blog {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+
+    .footer__top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__top {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__bottom {
+        display: flex;
+        align-items: start;
+    }
+
+    .footer {
+        background-color: var(--Footer-color);
+        padding: 64px 16px 20px 16px;
+    }
+}

@@ -1,0 +1,48 @@
+@import './reset/reset.css';
+
+
+:root {
+  --Burnt-color: #EE685F;
+  --Blue-color: #2A90D9;
+  --Shark-text-color: #262729;
+  --White-bg-color: #FFFFFF;
+  --White-opacity-color: #ffffffcf;
+  --Alabaster-bg-color: #F7F7F7;
+  --Alto-border-color: #D6D6D6;
+  --Gallery-border-color: #EBEBEB;
+  --Black-color: #000000;
+  --Curious-color: #2a90d933;
+  --Athens-color: #e7e6eb;
+  --Gray-color: #858585;
+  --Boston-color: #3D97B4;
+  --Footer-color: #F3F2F0;
+}
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+@import './blocks/header.css';
+@import './blocks/promo.css';
+@import './blocks/advantages.css';
+@import './blocks/offers.css';
+@import './blocks/reviews.css';
+@import './blocks/blog.css';
+@import './blocks/footer.css';
+
+@import './adaptive/media.css';

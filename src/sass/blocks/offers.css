@@ -1,0 +1,109 @@
+.offers {
+    margin-top: 100px;
+}
+
+.offers__title-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-align: center;
+}
+
+.offers__wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.offer__wrapper-item {
+    padding: 10px;
+    border: 1px solid var(--Athens-color);
+    border-radius: 12px;
+}
+
+.offers__wrapper-img {
+    position: relative;
+}
+
+.offers__rating {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.offers__stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--White-opacity-color);
+    padding: 4px 7px 4px 11px;
+    border-radius: 8px;
+    max-width: 67px;
+    margin: 10px 0 0 10px;
+}
+
+.offers__heart {
+    border-radius: 100%;
+    background-color: var(--White-opacity-color);
+    padding: 6px;
+    margin: 10px 10px 0 0;
+}
+
+.offers__room {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-top: 25px;
+}
+
+.offers__descr {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--Gray-color);
+}
+
+.offers__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.offers__cost-night {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.offers__cost {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--Blue-color);
+}
+
+.offers__night {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--Blue-color);
+}
+
+.offers__wrapper-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.offers__detail-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}

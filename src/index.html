@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preload" href="./img/promoImg.webp" as="image">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="#"><span class="header__logo_blue">Your</span><span class="header__logo_red">.logo</span></a>
+                </div>
+                <nav class="header__nav">
+                    <div class="header__desktop-nav">
+                        <ul class="header__menu">
+                            <li><a href="#">Last Minute Deals</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header__mobile-nav">
+                        <div class="header__burger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="header__nav-links">
+                            <ul class="header__links">
+                                <li><a href="#">Last Minute Deals</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                            <div class="header_nav-settings">
+                                <img src="./icons/money.svg" width="32" height="32" alt="Currency" tabindex="0" aria-label="Currency">
+                                <img src="./icons/language.svg" width="32" height="32" alt="Language">
+                            </div>
+                            <div class="header__contacts">
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/phone.svg" alt="phone">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/facebook.svg" alt="facebook">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/youtube.svg" alt="youtube">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/instagram.svg" alt="instagram">
+                                </a>
+                                <a href="#" class="header__item-contact">
+                                    <img src="./icons/telegram.svg" alt="telegram">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </nav>
+            </div>
+    
+            <div class="header__settings">
+                <img src="./icons/money.svg" width="32" height="32" alt="Currency" tabindex="0" aria-label="Currency">
+                <img src="./icons/language.svg" width="32" height="32" alt="Language">
+                <img src="./icons/user.svg" width="32" height="32" alt="User Profile" class="user-icon">
+            </div>
+        </div>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+        <!-- section-PROMO -->
+        <section class="promo">
+            <div class="container">
+                <div class="promo__wrapper">
+                    <div class="promo__content">
+                        <h1 class="promo__title-h1">
+                            Find an apartment <br> for your vacation
+                        </h1>
+                        <p class="promo__text">
+                            We have several thousand apartments <br> for every taste in every corner of the globe
+                        </p>
+                    </div>
+                    <div class="promo__form">
+                        <form action="#" class="promo__search">
+                            <div class="promo__search-item one">
+                                <div class="promo__search-icon">
+                                    <img src="./icons/location.svg" width="22" height="22" alt="Location">
+                                </div>
+                                <div class="promo__location">
+                                    <label for="destination">Where</label>
+                                    <input type="text" id="destination" placeholder="Search Destination">
+                                </div>
+                            </div>
+                        
+                            <div class="promo__search-divider"></div>
+                        
+                            <div class="promo__search-item two">
+                                <div class="promo__search-icon">
+                                    <img src="./icons/calendar.svg" width="22" height="22" alt="Date">
+                                </div>
+                                <div class="promo__date">
+                                    <label for="date">When</label>
+                                    <input type="text" id="date" placeholder="Select Date" readonly>
+                                </div>
+                            </div>
+                        
+                            <button type="submit" class="promo__search-btn">
+                                <img src="./icons/loupe.svg" width="14" height="14" alt="Search">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Advantages -->
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages__wrapper">
+                    <div class="advantages__choose">
+                        <h2 class="advantages__title-h2">
+                            Why Choose Us
+                        </h2>
+                        <p class="advantages__text">
+                            The main reason is because our competitors have disgusting sites, but we can' t write that here, so the text here will
+                            be different
+                        </p>
+                    </div>
+
+                    <div class="advantages__reasons">
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/payment.svg" alt="payment" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                Payment methods
+                            </h3>
+                            <p class="advantages__text_small">
+                                We have a lot of them, from cryptocurrencies to barter for potatoes
+                            </p>
+                        </div>
+
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/search.svg" alt="search" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                Simple search process
+                            </h3>
+                            <p class="advantages__text_small">
+                                We checked it out, even the kid did it, but it was my mom's friend's son
+                            </p>
+                        </div>
+
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/support.svg" alt="support" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                24/7 Support
+                            </h3>
+                            <p class="advantages__text_small">
+                                Is there something you don't understand? Feel free to call us. Phone number in the footer
+                            </p>
+                        </div>
+
+                        <div class="advantages__item-reason">
+                            <div class="advantages__img-circle">
+                                <img src="./icons/cat.svg" alt="cat" class="advantages__img">
+                            </div>
+                            <h3 class="advantages__title-h3">
+                                We are nice
+                            </h3>
+                            <p class="advantages__text_small">
+                                Fantasy is over, there will be something really convincing here
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special offers -->
+        <section class="offers">
+            <div class="container">
+                <h2 class="offers__title-h2">
+                    Special offers
+                </h2>
+                <div class="offers__wrapper">
+                    <div class="offer__wrapper-item">
+                        <div class="offers__wrapper-img">
+                            <div class="offers__rating">
+                                <div class="offers__stars">
+                                    <img src="./icons/Star.svg" alt="star">
+                                    <p>4.8</p>
+                                </div>
+                                <div class="offers__heart">
+                                    <img src="./icons/heart.svg" alt="heart">
+                                </div>
+                            </div>
+                            <img src="./img/roomWithImg.png" alt="roomWithImg" class="offers__img" loading="lazy">
+                        </div>
+                        <h3 class="offers__room">Wilderness Club at Big Ceddar</h3>
+                        <div class="offers__descr">2 Bedroom Combined Lodge</div>
+                        <p class="offers__text">28 October — 1 November</p>
+                        <div class="offers__cost-night">
+                            <div class="offers__cost">$2016</div>
+                            <div class="offers__night">/6 night</div>
+                        </div>
+                        <div class="offers__wrapper-detail">
+                            <div class="offers__detail-item">
+                                <img src="./icons/bed.svg" alt="beds">
+                                <p>4 Beds</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/person.svg" alt="peaple sleep">
+                                <p>8 Sleeps</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/area.svg" alt="area">
+                                <p>1,350 Sq Ft</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offer__wrapper-item">
+                        <div class="offers__wrapper-img">
+                            <div class="offers__rating">
+                                <div class="offers__stars">
+                                    <img src="./icons/Star.svg" alt="star">
+                                    <p>4.8</p>
+                                </div>
+                                <div class="offers__heart">
+                                    <img src="./icons/heart.svg" alt="heart">
+                                </div>
+                            </div>
+                            <img src="./img/roomWithImg.png" alt="roomWithImg" class="offers__img" loading="lazy">
+                        </div>
+                        <h3 class="offers__room">Wilderness Club at Big Ceddar</h3>
+                        <div class="offers__descr">2 Bedroom Combined Lodge</div>
+                        <p class="offers__text">28 October — 1 November</p>
+                        <div class="offers__cost-night">
+                            <div class="offers__cost">$2016</div>
+                            <div class="offers__night">/6 night</div>
+                        </div>
+                        <div class="offers__wrapper-detail">
+                            <div class="offers__detail-item">
+                                <img src="./icons/bed.svg" alt="beds">
+                                <p>4 Beds</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/person.svg" alt="peaple sleep">
+                                <p>8 Sleeps</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/area.svg" alt="area">
+                                <p>1,350 Sq Ft</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offer__wrapper-item">
+                        <div class="offers__wrapper-img">
+                            <div class="offers__rating">
+                                <div class="offers__stars">
+                                    <img src="./icons/Star.svg" alt="star">
+                                    <p>4.8</p>
+                                </div>
+                                <div class="offers__heart">
+                                    <img src="./icons/heart.svg" alt="heart">
+                                </div>
+                            </div>
+                            <img src="./img/roomWithImg.png" alt="roomWithImg" class="offers__img" loading="lazy">
+                        </div>
+                        <h3 class="offers__room">Wilderness Club at Big Ceddar</h3>
+                        <div class="offers__descr">2 Bedroom Combined Lodge</div>
+                        <p class="offers__text">28 October — 1 November</p>
+                        <div class="offers__cost-night">
+                            <div class="offers__cost">$2016</div>
+                            <div class="offers__night">/6 night</div>
+                        </div>
+                        <div class="offers__wrapper-detail">
+                            <div class="offers__detail-item">
+                                <img src="./icons/bed.svg" alt="beds">
+                                <p>4 Beds</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/person.svg" alt="peaple sleep">
+                                <p>8 Sleeps</p>
+                            </div>
+                            <div class="offers__detail-item">
+                                <img src="./icons/area.svg" alt="area">
+                                <p>1,350 Sq Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="reviews">
+            <div class="container">
+                <h2 class="reviews__title-h2">
+                    Reviews
+                </h2>
+                <div class="reviews__wrapper">
+
+                    <div class="reviews__item">
+                        <img src="./img/womanImg.webp" alt="woman" class="reviews__img">
+                        <h3 class="reviews__title-h3">
+                            I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they
+                            answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again
+                            and again.
+                        </h3>
+                        <p class="reviews__text">
+                            <i><strong>Jannike Borg</strong>, Publisher</i>
+                        </p>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="./img/womanImg.webp" alt="woman" class="reviews__img">
+                        <h3 class="reviews__title-h3">
+                            I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and
+                            they
+                            answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back
+                            again
+                            and again.
+                        </h3>
+                        <p class="reviews__text">
+                            <i><strong>Jannike Borg</strong>, Publisher</i>
+                    </p>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="./img/womanImg.webp" alt="woman" class="reviews__img">
+                        <h3 class="reviews__title-h3">
+                            I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and
+                            they
+                            answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back
+                            again
+                            and again.
+                        </h3>
+                        <p class="reviews__text">
+                            <i><strong>Jannike Borg</strong>, Publisher</i>
+                        </p>
+                    </div>
+                </div>
+                <button class="reviews__button">
+                    More reviews
+                </button>
+            </div>
+        </section>
+
+        <!-- Recent posts -->
+        <section class="blog">
+            <div class="container">
+                <h3 class="blog__title-h2">
+                    Recent posts
+                </h3>
+                <div class="blog__wrapper">
+                    <div class="blog__item">
+                        <img src="./img/zeleneSelo.webp" alt="Івано-франківськ" class="blog__img">
+                        <div class="blog__time">
+                            <div class="blog__date">
+                                May 23, 2022
+                            </div>
+                            <div class="blog__tense">
+                                <img src="./icons/clock.svg" alt="Годиник">
+                                <p>5 minutes</p>
+                            </div>
+                        </div>
+                        <div class="blog__title-h3">
+                            My trip to Athens
+                        </div>
+                        <p class="blog__text">
+                            It would seem that in a city where Theseus, Plato and Epicurus once walked, the very idea of the subway is alien to the
+                            city, but already...
+                        </p>
+                    </div>
+                    <div class="blog__item">
+                        <img src="./img/bigCity.webp" alt="Івано-франківськ" class="blog__img">
+                        <div class="blog__time">
+                            <div class="blog__date">
+                                May 22, 2022
+                            </div>
+                            <div class="blog__tense">
+                                <img src="./icons/clock.svg" alt="Годиник">
+                                <p>1 minutes</p>
+                            </div>
+                        </div>
+                        <div class="blog__title-h3">
+                            Vilnius resorts
+                        </div>
+                        <p class="blog__text">
+                            I haven't seen any resorts in Vilnius, but there are wonderful people and pubs
+                        </p>
+                    </div>
+                    <div class="blog__item">
+                        <img src="./img/sky.webp" alt="Івано-франківськ" class="blog__img">
+                        <div class="blog__time">
+                            <div class="blog__date">
+                                May 20, 2022
+                            </div>
+                            <div class="blog__tense">
+                                <img src="./icons/clock.svg" alt="Годиник">
+                                <p>15 minutes</p>
+                            </div>
+                        </div>
+                        <div class="blog__title-h3">
+                            Tips for flying on a plane
+                        </div>
+                        <p class="blog__text">
+                            If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane
+                            for you
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+     <!-- FOOTER -->
+     <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__section">
+                    <h3 class="footer__title-h3">Title of section</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title-h3">Title of section</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title-h3">Title of section</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                        <li><a href="#" class="footer__link">Page title</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__subscribe">
+                    <h3 class="footer__title-h3">Subscribe to Newsletter</h3>
+                    <form class="footer__form">
+                        <div class="footer__input-wrap">
+                            <input type="email" placeholder="Your email" class="footer__input" />
+                            <button type="submit" class="footer__btn">
+                                <img src="./icons/telegram.svg" alt="Send" width="14" height="14">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__logo"><div class="header__logo">
+                    <a href="#"><span class="header__logo_blue">Your</span><span class="header__logo_red">.logo</span></a>
+                </div></div>
+                <p class="footer__design">Design by <span>DevIg</span></p>
+                <ul class="footer__social">
+                    <li><a href="#"><img src="./icons/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="./icons/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="./icons/youtube.svg" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="./icons/telegram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="./icons/phone.svg" alt="Twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
