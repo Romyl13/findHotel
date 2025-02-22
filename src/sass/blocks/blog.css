@@ -52,3 +52,11 @@
     font-weight: 400;
     line-height: 22px;
 }
+
+.blog__img {
+    transition: all 0.4s ease;
+}
+
+.blog__img:hover {
+    transform: scale(1.04);
+}

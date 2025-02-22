@@ -93,4 +93,17 @@
     border-radius: 100%;
     width: 24px;
     height: 24px;
+    transition: all 0.4s ease;
+}
+
+.footer__social li:hover{
+    transform: scale(1.1) rotate(-13deg);
+}
+
+.footer__btn img {
+    transition: all 0.3s ease;
+}
+
+.footer__btn img:hover {
+    transform: scale(1.4) rotate(17deg);
 }

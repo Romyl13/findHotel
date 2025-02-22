@@ -104,7 +104,7 @@
         left: 0;
         right: 0;
         padding: 48px 20px 32px 20px;
-        row-gap: 40px;
+        row-gap: 36px;
 
         transform: translateY(-100%);
         transition: all 0.4s ease;
@@ -130,7 +130,7 @@
     .header__nav-links.active {
         display: flex;
 
-        transform: translateY(0);
+        transform: translateY(2%);
     }
 
     .header__burger-menu.active span:nth-child(1) {
@@ -163,7 +163,7 @@
 
     .header__contacts {
         display: flex;
-        margin-top: 230px;
+        margin-top: 200px;
         column-gap: 16px;
         align-items: center;
     }
@@ -304,6 +304,20 @@
 }
 
 @media (max-width: 480px) {
+    
+    .promo__location {
+        font-size: 14px;
+    }
+
+    .promo__content {
+        padding: 24px 0 50px 0;
+    }
+
+    .advantages__img {
+        width: 100px;
+        height: 100px;
+    }
+
     .footer__top {
         grid-template-columns: 1fr;
     }
